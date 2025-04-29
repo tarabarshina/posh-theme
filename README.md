@@ -5,4 +5,4 @@ default
 ![posh-theme.png](posh-theme.png)
 
 pink
-![posh-theme.png](posh-theme-pink.png)
+![quick-term-pink.png](quick-term-pink.png)
