@@ -1,16 +1,16 @@
 # posh-theme
-My oh-my-posh theme customized for python venv from quick-term
+My oh-my-posh theme customized from the quick-term theme for python venv
 
 default
 
-![posh-theme.png](posh-theme.png)
+![mint-term-orange.png](mint-term-orange.png)
 
 
-pink
+raspberry
 
-![quick-term-pink.png](quick-term-pink.png)
+![mint-term-raspberry.png](mint-term-raspberry.png)
 
 
 mint
 
-![quick-term-mint.png](quick-term-mint.png)
+![mint-term-mint.png](mint-term-mint.png)

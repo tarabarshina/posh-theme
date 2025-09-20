@@ -11,7 +11,7 @@
             "cache_duration": "none",
             "style": "austin"
           },
-          "leading_diamond": "\uf105\uf105\uf105",
+          "leading_diamond": "\r\n \uf105\uf105\uf105",
           "template": " \udb86\udd9f {{ .FormattedMs }}",
           "foreground": "#e4e4e4",
           "type": "executiontime",
@@ -24,8 +24,8 @@
             "time_format": "15:04:05"
           },
           "trailing_diamond": "\ue0b0",
-          "template": " \ue384 {{ .CurrentDate | date .Format }} ",
-          "foreground": "#79c6b2",
+          "template": " \ue384 {{ .CurrentDate | date .Format }} \r\n",
+          "foreground": "#f4dda4",
           "type": "time",
           "style": "powerline",
           "invert_powerline": true
@@ -58,7 +58,7 @@
           "leading_diamond": "\u256d\u2500\ue0b2",
           "template": " {{ .Icon }} {{ .HostName }} ",
           "foreground": "#49392d",
-          "background": "#79c6b2",
+          "background": "#1ace9e",
           "type": "os",
           "style": "diamond"
         },
@@ -82,7 +82,7 @@
             "style": "agnoster_short"
           },
           "template": " {{ .Path }} ",
-          "foreground": "#f2f3f8",
+          "foreground": "#81efd2",
           "powerline_symbol": "\ue0b0",
           "background": "#49392d",
           "type": "path",
@@ -139,7 +139,7 @@
           "leading_diamond": "\ue0b2",
           "trailing_diamond": "\ue0b0",
           "template": " \ueab0 {{ .CurrentDate | date .Format }} ",
-          "foreground": "#79c6b2",
+          "foreground": "#81efd2",
           "background": "#49392d",
           "type": "time",
           "style": "diamond",
@@ -156,7 +156,7 @@
             "cache_duration": "none"
           },
           "template": "{{ if .Root }}#{{else}}${{end}}",
-          "foreground": "#79c6b2",
+          "foreground": "#1ace9e",
           "type": "text",
           "style": "plain"
         }
